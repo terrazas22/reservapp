@@ -34,7 +34,7 @@ export const updateRoom = async (req, res, next) => {
     next(err);
   }
 };
-//nepe de burro
+
 export const deleteRoom = async (req, res, next) => {
   const hotelId = req.params.hotelId;
   console.log(hotelId);
